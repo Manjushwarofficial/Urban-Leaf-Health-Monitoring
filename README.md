@@ -2,8 +2,6 @@
 
 Urban-Leaf-Health-Monitoring is an end-to-end system for tracking urban vegetation health and land-use change. Leveraging satellite and aerial imagery, machine learning, and computer vision, it enables robust monitoring of ecological shifts, urban expansion, and deforestation events across diverse regions.
 
----
-
 ## Key Insights
 
 - **Automated Area Selection:** Efficient sampling and region-of-interest extraction for large-scale analysis.
@@ -15,15 +13,12 @@ Urban-Leaf-Health-Monitoring is an end-to-end system for tracking urban vegetati
 - **Temporal Event Tracking:** Enables comparison of ecological events (e.g., bushfires, mining) and multi-year change detection.
 - **Urban Metrics Visualization:** Generates actionable insights for city planning and conservation.
 
----
 
 ## Study Regions
 
 - **Hasdeo Forest:** Deforestation and mining impacts (2018–2023)
 - **Sydney Blue Mountains Fringe:** Urban expansion and ecological shifts
 - **Kangaroo Island:** Black Summer bushfire impacts
-
----
 
 ## Repository Structure
 
@@ -51,8 +46,6 @@ Urban-Leaf-Health-Monitoring is an end-to-end system for tracking urban vegetati
 ├── README.md
 ```
 
----
-
 ## Features & Roadmap
 
 ### Phase 1: Data Engineering
@@ -73,8 +66,6 @@ Urban-Leaf-Health-Monitoring is an end-to-end system for tracking urban vegetati
 - [ ] Time-Lapse Visualization: 5-year change detection
 - [ ] Urban Metrics: Feature visualization for city planning
 
----
-
 ## Quick Start
 
 ### Prerequisites
@@ -91,21 +82,16 @@ cd Urban-Leaf-Health-Monitoring
 pip install -r requirements.txt
 ```
 
----
-
 ## Evaluation Metrics
 
 - **Segmentation:** Mean Intersection over Union (mIoU), Dice Coefficient
 - **Classification:** Precision-Recall, Confusion Matrix
 - **Temporal:** Quantitative land-cover loss
 
----
 
 ## Contributing
 
 Contributions are welcome! Help select new regions or improve the augmentation pipeline by opening an issue.
-
----
 
 ## License
 
